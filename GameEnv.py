@@ -439,7 +439,7 @@ class RacingEnv:
 
         DRAW_WALLS = False
         DRAW_GOALS = False
-        DRAW_RAYS = False
+        DRAW_RAYS = True
 
         pygame.time.delay(10)
 

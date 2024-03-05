@@ -48,7 +48,7 @@ class ReplayBuffer(object):
 class DDQNAgent(object):
     def __init__(self, alpha, gamma, n_actions, epsilon, batch_size,
                  input_dims, epsilon_dec=0.999995,  epsilon_end=0.10,
-                 mem_size=25000, fname='ddqn_model.h5', replace_target=25):
+                 mem_size=25000, fname='ddqn_model.keras', replace_target=25):
         self.action_space = [i for i in range(n_actions)]
         self.n_actions = n_actions
         self.gamma = gamma
