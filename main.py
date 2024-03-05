@@ -1,7 +1,7 @@
 import GameEnv
 import pygame
 import numpy as np
-from ddqn_keras import DDQNAgent
+from ddqn_kerasv0 import DDQNAgent
 from collections import deque
 import random, math
 
